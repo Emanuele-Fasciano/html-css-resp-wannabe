@@ -1,0 +1,60 @@
+/* Tablet screen */
+
+@media screen and (max-width:769px) {
+
+    .container{
+        width: 769px;
+    }
+    
+    .why-us .col-left {
+        width: 50%;
+}
+}
+
+
+/* Mobile screen */
+
+@media  screen and (max-width:481px) {
+
+.container {
+        width: 481px;
+        padding-right: 40px;
+    }
+
+
+.container .row{
+    flex-direction: column;
+    align-items: center;
+}
+
+.lessons .col {
+    width: 75%;
+    
+}
+
+.row .col {
+
+    margin-bottom: 3rem;
+}
+
+
+h3{
+    margin-top: 0px;
+}
+
+.steps .col{
+    width: 100%;
+}
+
+.why-us h2{
+    font-size: 2.3rem;
+}
+
+.why-us .col-left {
+    width: 85%;
+}
+
+.why-us .col-right {
+    width: 90%;
+}
+}
