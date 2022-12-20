@@ -34,7 +34,7 @@
 @media  screen and (max-width:481px) {
 
 .container {
-        width: 481px;
+        width: 100vw;
         padding-right: 40px;
     }
 
